@@ -1,0 +1,65 @@
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    padding: 1rem;
+}
+
+main div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+main div h2 { /* Titles of posts */
+    font-size: 1.5em;
+}
+
+main div p { /* Content of posts */
+    margin: 0.5em 0;
+}
+
+main div small { /* Author attribution */
+    font-size: 0.8em;
+    color: #666;
+}
+
+footer {
+    padding: 1rem;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+footer a {
+    color: #007BFF;
+}
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
