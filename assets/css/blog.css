@@ -23,15 +23,15 @@ main div {
     border-bottom: 1px solid #ccc;
 }
 
-main div h2 { /* Titles of posts */
+main div h2 { 
     font-size: 1.5em;
 }
 
-main div p { /* Content of posts */
+main div p { 
     margin: 0.5em 0;
 }
 
-main div small { /* Author attribution */
+main div small { 
     font-size: 0.8em;
     color: #666;
 }
